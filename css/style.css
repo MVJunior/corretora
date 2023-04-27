@@ -1,0 +1,428 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Open Sans', sans-serif;
+}
+
+
+html,body{
+	height: 100vh;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.container{
+	max-width: 1280px;
+	margin:0 auto;
+}
+
+
+header{
+	width: 100%;
+	height: 25vh;
+	min-height: 220px;
+	padding:40px 2%;
+	background-size: cover;
+	background-position: center;
+	background-color: #011833;
+	font-weight: 300;
+}
+
+header .logo{
+	position: relative;
+	top: -35px;	
+	height: 160px;	
+	background-image: url('../imagens/imglogocompleta.png');
+	background-size: 16% 95%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	
+}
+
+header div.desktop-menu div{
+	float: left;
+	font-size: 18px;
+	padding: 0 60px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+header div.desktop-menu a{
+	color: white;
+    text-decoration: none;
+	
+	
+}
+
+header div.desktop-menu a:hover{
+	text-shadow: 0 0 4px rgb(255, 255, 255);
+	font-size: 19px;
+}	
+
+
+
+
+
+
+section.banner div.logo-banner{
+	
+	position: relative;
+	height: 460px;
+	background-image: url('../imagens/imghome.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+section.section-sobre{
+	height: 100%;
+}
+
+.logo-sobre{
+	background-image: url('../imagens/logo.png');
+	background-size: 6% 45%;
+	position: relative;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	
+}
+
+.logo-residencial{
+	
+	height: 250px;
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('../imagens/SeguroResidencialBG.png');
+}
+
+.txt-sobre{
+	color: rgb(124, 119, 119);
+	text-align: justify;	
+	margin: 0 auto;
+	line-height: 30px;
+	max-width: 1280px;
+	padding: 0 5%;
+	
+}
+
+.txt-sobre h1{
+	font-size: 33px;
+	color: rgb(98, 168, 214);
+	text-align: center;
+	padding: 30px 0 80px 0;
+}
+
+.txt-sobre h2{
+	font-size: 24px;
+	color: rgb(98, 168, 214);
+	text-align: justify;
+	padding:30px 0 10px 0;
+}
+
+.txt-sobre ul li{
+	line-height: 50px;
+}
+
+
+.container-mosaico-wraper-colun{
+	float: left;
+	width: calc(100% / 5);
+	
+}
+
+.container-img-mosaico{
+	width: 100%;
+	padding-top:100%;	
+	border:5px solid white;
+	
+}
+
+.elementor-img-container{
+	width: 100%;
+	padding-top: 15px;	
+	border:5px solid white;
+}
+
+
+.servico-text{
+	color: rgb(100, 100, 100);	
+	font-size: 23px;
+
+
+}
+
+.elementor-icon-wrapper{
+	align-items: center;
+	text-align: center;
+
+}
+
+a.elementor-icon{
+	text-decoration: none;
+}
+
+
+
+.wrapper-btn{
+	height: auto;
+	
+}
+
+.container-button{
+	width: calc(100%/2);
+	display: flex;
+	float: left;
+	
+	
+}
+
+.btn-contato-web{
+	position: relative;
+	height: 200px;	
+	background-image: url('../imagens/Grupo30.png');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+.btn-contato-phone{
+	position: relative;
+	height: 200px;	
+	background-image: url('../imagens/imgbtnzap.png');
+	background-size: 100%;
+	background-position: center;	
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.elementor-img-wraper{	
+    display: flex;
+	float: left;
+	width: 20%;
+	
+	
+}
+
+
+
+.elementor-img-wraper2{	
+    display: flex;
+	float: left;
+	width: calc(100%/4);	
+}
+
+
+
+.mosaico-social{
+	float: left;
+	width: 100%;
+}
+
+.img-mosaico-single-social{
+	float: left;
+	width: 100%;
+	padding: 30% 0 10% 0;
+	background-repeat: no-repeat;
+	background-size: 70% 100%;
+	border:6px solid white;
+	
+}
+
+
+.mosaico-social-2{
+	float: left;
+	width: 100%;
+	
+}
+
+.img-mosaico-single-social-2{
+	float: left;
+	width: 100%;
+	padding: 30% 0 10% 0;
+	background-repeat: no-repeat;
+	background-size: 70% 100%;
+	border:6px solid white;
+}
+
+
+
+
+
+
+
+.elementor-image-contato{
+	height: 40px;
+	background-image: url('../imagens/imgcontato.png');
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position-x: 50%;
+	background-position-y: 50%;
+}
+
+
+.elementor-widget-container-footer{
+	font-size: 10px;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	color: white;
+	background-image: linear-gradient(to right, #005555 , #02f5d4);
+}
+
+
+
+.conteiner-footer{
+	height: 20px;
+	width: 100%;
+	background-image: linear-gradient(to right, #005555 , #02f5d4);
+}
+
+.feet{
+	text-decoration: none;
+	color: white;
+	font-size: 5px;
+}
+
+
+.navbar-dark{
+	visibility: hidden;
+}
+
+nav div ul .side{
+	align: right;
+}
+
+@media screen and (max-width: 1024px){
+
+	header div.desktop-menu div{
+		visibility: hidden;
+	}
+
+	.navbar-dark{
+		visibility: visible;
+	}
+
+
+
+	.container-mosaico-wraper-colun{
+		float: left;
+		width: calc(100% / 1);
+		
+	}
+	
+	.container-img-mosaico{
+		width: 80%;
+		padding-top:80%;	
+		border:5px solid white;
+		
+	}
+	
+	.elementor-img-container{
+		width: 80%;
+		padding-top: 15px;	
+		border:5px solid white;
+	}
+	
+	.logo-residencial{	
+		height: 150px;
+	}
+	
+	.img-mosaico-single-social{
+		padding: 40% 0 20% 0;			
+	}
+
+	.img-mosaico-single-social-2{
+		padding: 40% 0 20% 0;
+				
+	}
+
+	.elementor-image-contato{
+		height: 30px;
+		background-image: url('../imagens/imgcontato.png');
+		background-repeat: no-repeat;
+		background-size: 50%;
+		
+	}
+	
+}
+
+@media screen and (max-width: 768px){
+
+	header{
+		
+		min-height: 190px;
+	}
+
+
+	header .logo{
+		background-size: 22% 90%;
+	
+	}
+
+	header div.desktop-menu div{
+		visibility: hidden;
+	}
+
+	nav div div ul li .nav-item{
+		font-size: 12px;
+	}
+
+	.logo-residencial{	
+		height: 120px;
+	}
+
+
+	.img-mosaico-single-social{
+		padding: 50% 0 20% 0;			
+	}
+
+	.img-mosaico-single-social-2{
+		padding: 50% 0 20% 0;
+				
+	}
+
+	
+}
+
+@media screen and (max-width: 510px){
+
+	header{
+		
+		min-height: 170px;
+	}	
+
+	header .logo{
+		background-size: 25% 85%;
+	
+	}
+
+	.logo-residencial{	
+		height: 100px;
+	}
+
+	.elementor-image-contato{
+		height: 30px;
+		background-image: url('../imagens/imgcontato.png');
+		background-repeat: no-repeat;
+		background-size: 60%;
+		
+	}
+
+}
+
+
+
+
